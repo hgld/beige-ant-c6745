@@ -12,35 +12,41 @@
         "has_primary_nav": true,
         "primary_nav_links": [
             {
-                "label": "Features",
+                "label": "About the Test",
                 "url": "/features",
                 "style": "link"
             },
             {
-                "label": "Pricing",
+                "label": "Books",
                 "url": "/pricing",
                 "style": "link"
             },
             {
-                "label": "About",
+                "label": "Online Tests",
+                "url": "#",
+                "style": "link",
+                "has_icon": false,
+                "icon": "arrow-left",
+                "icon_position": "right",
+                "new_window": false,
+                "no_follow": false,
+                "type": "action"
+            },
+            {
+                "label": "Resources",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Blog",
+                "label": "News",
                 "url": "/blog",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
                 "style": "link"
             }
         ],
         "has_secondary_nav": true,
         "secondary_nav_links": [
             {
-                "label": "Contact",
+                "label": "Login",
                 "url": "/contact",
                 "style": "link"
             },
@@ -58,7 +64,7 @@
         "anncmnt_id": "new-features"
     },
     "footer": {
-        "logo": "images/classic/logo.svg",
+        "logo": "images/lifeintheuk_RND-pos.png",
         "logo_alt": "DIY logo",
         "has_primary_nav": true,
         "primary_nav_title": "Company",

@@ -2,8 +2,8 @@
 title: Home
 sections:
   - type: hero_section
-    subtitle: Get the best selling study guide for the Life in the UK test
-    content: "Includes the complete official study materials from the Home Office guide,\_**Life in the United Kingdom: A guide for new residents**\n\nAccess unique study aids,\_**practice tests,**\_and the best independent advice\n\nClaim your free subscription\_to our\_**online tests**\_with every purchase\n"
+    subtitle: Introducing the best selling study guide for the Life in the UK test
+    content: "Includes the complete official study materials from the Home Office\n\nAccess unique study aids,\_**practice tests,**\_and the best independent advice\n\nClaim your free subscription\_to our\_**online tests**\_with every purchase\n"
     actions:
       - label: Get the book
         url: /pricing
@@ -224,37 +224,6 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
-  - type: grid_section
-    title: Team Section
-    subtitle: Grid Section Example
-    actions:
-      - label: Join the team
-        url: /style-guide
-        style: primary
-    grid_items:
-      - title: Gustav Purpleson
-        subtitle: Co-Founder & CEO
-        title_align: center
-        image: images/gustav-purpleson.jpg
-        image_position: top
-      - title: Dianne Ameter
-        subtitle: Software Engineer
-        title_align: center
-        image: images/dianne-ameter.jpg
-        image_position: top
-      - title: Hugh Saturation
-        subtitle: Developer Advocate
-        title_align: center
-        image: images/hugh-saturation.jpg
-        image_position: top
-      - title: Hilary Ouse
-        subtitle: Operations Manager
-        title_align: center
-        image: images/hilary-ouse.jpg
-        image_position: top
-    grid_cols: four
-    align: center
-    background_color: secondary
   - type: blog_feed_section
     title: What's New
     subtitle: Blog Feed Section Example
