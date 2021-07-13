@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    subtitle: Optional hero section subtitle
+    subtitle: Get the best selling study guide for the Life in the UK test
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel.
