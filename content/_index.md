@@ -23,7 +23,7 @@ sections:
     background_color: primary
     title: Ready to Pass?
   - type: features_section
-    title: Features Section
+    title: Proven Success Rate
     subtitle: Features Section Example
     features:
       - title: The Big Title For the Feature
