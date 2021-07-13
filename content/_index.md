@@ -21,6 +21,7 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
+    title: Pass on your first attempt
   - type: grid_section
     title: Image Grid
     subtitle: Grid Section Example
