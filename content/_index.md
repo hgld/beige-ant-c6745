@@ -19,7 +19,7 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
-    title: Pass on your first attempt
+    title: Get Ready to Pass
   - type: features_section
     title: Features Section
     subtitle: Features Section Example
