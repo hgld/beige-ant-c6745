@@ -5,7 +5,7 @@ sections:
     subtitle: Get the best selling study guide for the Life in the UK test
     content: "Includes the complete official study materials from the Home Office guide,\_**Life in the United Kingdom: A guide for new residents**\n\nAccess unique study aids,\_**practice tests,**\_and the best independent advice\n\nClaim your free subscription\_to our\_**online tests**\_with every purchase\n"
     actions:
-      - label: Try Free
+      - label: Get the book
         url: /pricing
         style: primary
       - label: Learn More
