@@ -17,6 +17,11 @@
                 "style": "link"
             },
             {
+                "label": "Books",
+                "url": "/pricing",
+                "style": "link"
+            },
+            {
                 "label": "Online Tests",
                 "url": "#",
                 "style": "link",
@@ -26,11 +31,6 @@
                 "new_window": false,
                 "no_follow": false,
                 "type": "action"
-            },
-            {
-                "label": "Books",
-                "url": "/pricing",
-                "style": "link"
             },
             {
                 "label": "Resources",
