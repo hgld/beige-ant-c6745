@@ -28,10 +28,7 @@ sections:
     features:
       - title: The Big Title For the Feature
         subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+        content: "Buy the**\_complete study materials**\_and free expert independent advice.\n\nOver\_**94% pass rate**\_for our customers, compared to the national average of 70%\n\nEverything you need to pass the test in one book\n"
         actions:
           - label: Learn More
             url: /style-guide
