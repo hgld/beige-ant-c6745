@@ -27,7 +27,9 @@ sections:
     subtitle: Features Section Example
     features:
       - title: 94% first-time pass rate
-        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
+        subtitle: >-
+          94% of candidates that used our study guide passed on their first
+          attempt.
         content: "Buy the**\_complete study materials**\_and free expert independent advice.\n\nOver\_**94% pass rate**\_for our customers, compared to the national average of 70%\n\nEverything you need to pass the test in one book\n"
         actions:
           - label: Learn More
