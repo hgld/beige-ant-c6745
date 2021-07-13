@@ -46,7 +46,7 @@ sections:
       - image: images/logo-7.svg
         image_alt: Gridsome logo
         image_align: center
-    grid_cols: three
+    grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: medium
   - type: features_section
