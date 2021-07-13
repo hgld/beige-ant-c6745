@@ -8,7 +8,7 @@ sections:
       - label: Get the book
         url: /pricing
         style: primary
-      - label: Learn More
+      - label: Take a Test
         url: /features
         style: secondary
     image: images/about-5.jpg
