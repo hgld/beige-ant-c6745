@@ -119,26 +119,8 @@
                 "label": "Twitter",
                 "url": "https://twitter.com/",
                 "style": "link",
-                "has_icon": true,
+                "has_icon": false,
                 "icon": "twitter",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "label": "GitHub",
-                "url": "https://github.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "github",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "linkedin",
                 "icon_position": "center",
                 "new_window": true
             },
@@ -146,22 +128,22 @@
                 "label": "YouTube",
                 "url": "https://www.youtube.com/",
                 "style": "link",
-                "has_icon": true,
+                "has_icon": false,
                 "icon": "youtube",
                 "icon_position": "center",
                 "new_window": true
             },
             {
                 "label": "Vimeo",
-                "url": "https://vimeo.com/",
+                "url": "https://www.facebook.com/lifeintheuk.net/",
                 "style": "link",
-                "has_icon": true,
-                "icon": "vimeo",
+                "has_icon": false,
+                "icon": "facebook",
                 "icon_position": "center",
                 "new_window": true
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=diy&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+        "content": "Copyright 2005-2021 Red Squirrel Publishing. All rights reserved.“Red Squirrel” is a registered trademark of Shoreditch Media Limited."
     },
     "domain": "https://rsplife.netlify.app"
 }
