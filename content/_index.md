@@ -2,7 +2,9 @@
 title: Home
 sections:
   - type: hero_section
-    subtitle: Introducing the best selling study guide for the Life in the UK test
+    subtitle: >-
+      Get the best selling study guide for the Life in the UK test — over
+      750,000 copies sold
     content: "Includes the complete official study materials from the Home Office\n\nAccess unique study aids,\_**practice tests,**\_and the best independent advice\n\nClaim your free subscription\_to our\_**online tests**\_with every purchase\n"
     actions:
       - label: Get the book
@@ -19,7 +21,7 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
-    title: Get Ready to Pass
+    title: Ready to Pass?
   - type: features_section
     title: Features Section
     subtitle: Features Section Example
