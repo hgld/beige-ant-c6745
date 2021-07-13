@@ -30,6 +30,7 @@ sections:
             style: primary
         actions_align: left
         actions_width: full-width
+        image: images/LITUK2021_SG15-1-Cover_051020.png
       - title: Premium
         subtitle: Optional subtitle
         title_align: left
