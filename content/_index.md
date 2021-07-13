@@ -5,7 +5,7 @@ sections:
     subtitle: >-
       Get the best selling study guide for the Life in the UK test — over
       750,000 copies sold
-    content: "√ Includes the complete official study materials from the Home Office\n\n√ Access unique study aids,\_**practice tests,**\_and the best independent advice\n\n√ Claim your free subscription\_to our\_**online tests**\_with every purchase\n"
+    content: "Includes the complete official study materials from the Home Office\n\nAccess unique study aids,\_**practice tests,**\_and independent advice\n\nPlus get a free subscription\_to our\_**online course tests**\n"
     actions:
       - label: Get the book
         url: /pricing
