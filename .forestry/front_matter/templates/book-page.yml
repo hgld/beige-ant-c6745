@@ -1,0 +1,32 @@
+---
+label: Book Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: hero
+  label: hero
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: buy_action_1
+    label: buy_action_1
+  - type: text
+    name: buy_action_2
+    label: buy_action_2
+  - type: text
+    name: buy_action_3
+    label: buy_action_3
