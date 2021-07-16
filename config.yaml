@@ -10,3 +10,5 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+metaDataFormat: "yaml"
