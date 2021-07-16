@@ -1,0 +1,20 @@
+{{ define "content" }}
+
+{{ $hero := .Params.hero }}
+
+<section class="section">
+	<div class="container">
+		<div>
+			<h2>{{ $hero.title }}</h2>
+			<h3>{{ $hero.subtitle }}</h3>
+		</div>
+		<div class="grid items-center">
+
+        <div>
+		    <h3>Content</h3>
+            {{ .Content | markdownify }}
+        </div>
+	</div>
+</section>
+
+{{ end }}
