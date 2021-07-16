@@ -10,5 +10,5 @@ sections:
     buy_action_2: /
     buy_action_3: /
     
-layout: advanced
+layout: book
 ---
