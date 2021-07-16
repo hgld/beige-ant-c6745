@@ -5,7 +5,7 @@ sections:
     subtitle: >-
       Get the best selling study guide for the Life in the UK test — over
       750,000 copies sold
-    content: "Includes the complete official study materials from the Home Office\n\nAccess unique study aids,\_**practice tests,**\_and independent advice\n\nPlus get a free subscription\_to our\_**online course tests**\n"
+    content: "Includes the complete official study materials from the Home Office\n\nAccess unique study aids, **practice tests,** and independent advice\n\nPlus get a free subscription\_to our\_**online course tests**\n"
     actions:
       - label: Get the book
         url: /pricing
@@ -30,7 +30,7 @@ sections:
         subtitle: >-
           94% of candidates that used our study guide passed on their first
           attempt.
-        content: "Buy the**\_complete study materials**\_and free expert independent advice.\n\nOver\_**94% pass rate**\_for our customers, compared to the national average of 70%\n\nEverything you need to pass the test in one book\n"
+        content: "Buy the **complete study materials** and free expert independent advice.\n\nOver\_**94% pass rate**\_for our customers, compared to the national average of 70%\n\nEverything you need to pass the test in one book\n"
         actions:
           - label: Learn More
             url: /style-guide
@@ -91,7 +91,7 @@ sections:
     feature_padding_vert: small
     background_color: primary
   - type: grid_section
-    title: Cards Grid Section
+    title: ds Grid Section
     subtitle: Grid Section Example
     grid_items:
       - title: Section Item 1
