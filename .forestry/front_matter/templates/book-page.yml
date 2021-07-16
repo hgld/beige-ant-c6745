@@ -35,3 +35,5 @@ fields:
     config:
       maxSize: 64
     label: Hero Image
+pages:
+- content/books/book-3.md
