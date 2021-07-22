@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "files": "**/layouts/**/*.html",
+      "options": { "parser": "handlebars" }
+    }
+  ]
+}

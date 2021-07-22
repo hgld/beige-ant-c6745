@@ -59,7 +59,7 @@ sections:
         media_position: left
         media_width: fifty
       - title: The Big Title For the Feature
-        subtitle: 'Sed sed commodo turpis, eget rutrum dui.'
+        subtitle: "Sed sed commodo turpis, eget rutrum dui."
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
@@ -83,7 +83,7 @@ sections:
       - title: >-
           “Stackbit is fast! Themes are always up to date. It’s easy to use
           across the organization, and collaboration is easy.”
-        subtitle: 'Brandon Guidelines, Sr. Design Manager at Company'
+        subtitle: "Brandon Guidelines, Sr. Design Manager at Company"
         image: images/brandon-guidelines.png
         image_alt: Brandon Guidelines
         media_position: right
@@ -265,26 +265,26 @@ seo:
   title: Stackbit DIY Theme
   description: The preview of the DIY theme
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Stackbit DIY Theme
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: The preview of the DIY theme
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/diy-preview.png
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Stackbit DIY Theme
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: The preview of the DIY theme
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/diy-preview.png
       relativeUrl: true
 layout: advanced

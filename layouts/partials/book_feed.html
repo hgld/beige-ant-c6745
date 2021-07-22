@@ -1,0 +1,61 @@
+{{ $book := .book }}
+{{ $book_feed_section := .book_feed_section }}
+{{ $columns := $book_feed_section.blog_feed_cols | default "three" }}
+
+{{ $is_card := false }}
+{{ if $book_feed_section.enable_cards }}
+	{{ $is_card = true }}
+{{ end }}
+
+{{ $has_image := false }}
+{{ if $book.Params.thumb_image }}
+	{{ $has_image = true }}
+{{ end }}
+
+{{ $no_image := false }}
+{{ if eq $has_image false }}
+	{{ $no_image = true }}
+{{ end }}
+
+{{ $show_categories := false }}
+{{ if and $book_feed_section.show_categories $book.Params.categories }}
+	{{ $show_categories = true }}
+{{ end }}
+
+<article class="cell-12 cell-md-6 my-2{{ if eq $columns "three" }} cell-lg-4{{ end }}">
+	<div class="item book card card--highlight">
+        {{ if $book_feed_section.title }}
+            <h3 class="item__title mt-0{{ if eq $columns "two" }} h3{{ end }}{{ if eq $columns "three" }} h4{{ end }}"><a href="{{ $book.URL }}">{{ $book.Params.title }}</a></h3>
+        {{ else }}
+            <h2 class="item__title mt-0{{ if eq $columns "two" }} h3{{ end }}{{ if eq $columns "three" }} h4{{ end }}"><a href="{{ $book.URL }}">{{ $book.Params.title }}</a></h2>
+        {{ end }}
+		<div class="flex">
+			{{ if and $has_image }}
+                <img class="maxw-33" src="{{ $book.Params.thumb_image | relURL }}" alt="{{ $book.Params.thumb_image_alt }}" />
+			{{ end }}
+			<div class="flex flex-column justify-between item__body{{ if $is_card }} px-3{{ end }}{{ if and $is_card $no_image }} pt-3{{ end }}{{ if $is_card }} px-sm-4{{ end }}{{ if and $is_card $no_image }} pt-4{{ end }}">
+				{{/* {{ if or $book_feed_section.show_date $show_categories }}
+				<div class="item__meta mb-1">
+					{{ if $show_categories }}
+						{{ $include_dict := dict "categories" $book.Params.categories "container_class" "item__cat" }}
+						{{ partial "blog_book_categories.html" $include_dict }}
+						{{ if $book_feed_section.show_date }}
+							<span class="item__meta-sep"> &middot; </span>
+						{{ end }}
+					{{ end }}
+				</div>
+				{{ end }} */}}
+				
+				{{ if $book.Params.blurb }}
+				<div class="book__item">
+					<p>{{ $book.Params.blurb | markdownify }}</p>
+				</div>
+				{{ end }}
+                <div class="flex items-center">
+                    <a class="btn btn-primary mr-2" href="{{ $book.Permalink }}">View More</a>
+                    {{ partial "rating.html" $book.Params.rating }}
+                </div>
+			</div>
+		</div>
+	</div>
+</article>

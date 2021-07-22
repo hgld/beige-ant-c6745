@@ -1,0 +1,14 @@
+
+<style>
+    .rating__number {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.15rem;
+        margin-left: 3px;
+    }
+</style>
+
+<div class="flex items-center">
+    {{ partial "fontawesome.html" "star" }}
+    <span class="rating__number">{{ .stars }}</span>
+</div>
