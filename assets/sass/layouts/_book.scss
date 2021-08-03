@@ -8,6 +8,26 @@ article {
   padding: 20px 20px;
 }
 
+.narrow-screen {
+  display: none;
+}
+$breakpoint-tablet: 1024px;
+@media (max-width: $breakpoint-tablet) {
+  .wide-screen {
+    display: none;
+  }
+  .narrow-screen {
+    display: block;
+
+    a {
+      width: 50% !important;
+    }
+    .rating {
+      color: #4d7eec;
+      margin-top: 20px !important;
+    }
+  }
+}
 .book__hero {
   padding-top: 60px;
   x h1,
@@ -21,22 +41,27 @@ article {
   h3 {
     font-size: 24px;
   }
-  a {
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 60px;
-    background-color: $primary;
-    color: white;
-    margin: 20px 0;
-    border-radius: 10px;
-  }
+
   .book__hero_headings {
-    padding: 0 20px 20px 20px;
-    padding-right: 60px;
+    padding: 0 200px 20px 40px;
+    flex: 2;
   }
   .book__hero_links {
     margin: auto;
-    flex: 0 0 25%;
+    a {
+      width: 90%;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+      background-color: $primary;
+      color: white;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+  }
+  .book__hero_links,
+  .book_image_container {
+    flex: 1;
   }
 
   .rating {

@@ -31,7 +31,9 @@
         {{ end }}
 		<div class="flex">
 			{{ if and $has_image }}
-                <img class="maxw-33" src="{{ $book.Params.thumb_image | relURL }}" alt="{{ $book.Params.thumb_image_alt }}" />
+			<div class="book-image-container minw-25">
+                <img src="{{ $book.Params.thumb_image | relURL }}" alt="{{ $book.Params.thumb_image_alt }}" />
+			</div>
 			{{ end }}
 			<div class="flex flex-column justify-between item__body{{ if $is_card }} px-3{{ end }}{{ if and $is_card $no_image }} pt-3{{ end }}{{ if $is_card }} px-sm-4{{ end }}{{ if and $is_card $no_image }} pt-4{{ end }}">
 				{{/* {{ if or $book_feed_section.show_date $show_categories }}

@@ -6,18 +6,34 @@
 ></script>
 <section class="section book__hero mb-5">
   <div class="container">
-    <div class="flex">
-      <img src="{{$hero.hero_image}}" class="maxw-25" />
-      <div class="flex flex-column book__hero_headings flex-auto">
+    <div class="flex wide-screen">
+      <div class="book_image_container">
+        <img src="{{$hero.hero_image}}" />
+      </div>
+      <div class="flex flex-column book__hero_headings">
         <h2>{{ .Params.title }}</h2>
         <h3>{{ $hero.subtitle }}</h3>
         <div class="rating">{{ partial "rating.html" .Params.rating }}</div>
       </div>
-      <div class="book__hero_links flex flex-column align-center">
+      <div class="book__hero_links flex flex-column items-center">
         {{ range $hero.links }}
         <a href="{{ .url }}" target="_blank">{{ .name }}</a>
         {{ end }}
       </div>
+    </div>
+    <div class="flex flex-column narrow-screen">
+      <h2 class="text-center">{{ .Params.title }}</h2>
+      <div class="flex">
+        <div class="book_image_container">
+          <img src="{{$hero.hero_image}}" />
+        </div>
+        <div class="book__hero_links flex flex-column items-center">
+          {{ range $hero.links }}
+          <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+          {{ end }}
+        </div>
+      </div>
+      <div class="rating mt-3">{{ partial "rating.html" .Params.rating }}</div>
     </div>
   </div>
 </section>
