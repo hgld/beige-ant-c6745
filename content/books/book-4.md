@@ -1,29 +1,28 @@
 ---
 layout: book
-title: "Life in the UK Test: Study Guide"
-image: /uploads/book-cover.png
-thumb_image: /uploads/book-cover.png
-blurb: >
+title: 'Life in the UK Test: Study Guide'
+image: "/uploads/book-cover.png"
+thumb_image: "/uploads/book-cover.png"
+blurb: |
   - New CD software, with even more questions and improved performance
-
   - New foreword from Professor Thom Brooks, a leading expert on British citizenship
-
   - Revised trusted advice and answers to common questions from people who have successfully passed the Life in the UK test
 rating:
-  stars: 4.2
-  url: "http://amazon.co.uk"
+  stars: "4.2"
+  url: http://amazon.co.uk
 hero:
-  subtitle: >-
-    Our most comprehensive product, including the complete study materials,
+  subtitle: Our most comprehensive product, including the complete study materials,
     practice tests and CD ROM tests
-  hero_image: /uploads/book-cover.png
+  hero_image: "/uploads/book-cover.png"
   links:
-    - name: "Buy on Google"
-      url: "http://www.google.com"
-    - name: "Buy on Amazon"
-      url: "http://www.amazon.co.uk"
----
+  - name: Test 3
+    url: http://www.google.com
+  - name: Buy on Google
+    url: http://www.google.com
+  - name: Buy on Amazon
+    url: http://www.amazon.co.uk
 
+---
 ### Description
 
 This book contains everything you need to study and prepare for the Life in the UK test. This comprehensive title includes the complete study materials, study aids and advice, practice tests and CD software for you to test yourself at home.
