@@ -1,6 +1,6 @@
 ---
 layout: book
-title: 'Life in the UK Test: Study Guide'
+title: 'Life in the UK Test: Study Guide Test'
 image: "/uploads/book-cover.png"
 thumb_image: "/uploads/book-cover.png"
 blurb: |
